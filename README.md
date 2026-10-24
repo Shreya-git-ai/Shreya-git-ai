@@ -139,6 +139,14 @@ class Shreya:
 
 ---
 
+# 📂 More Projects
+
+- [Configwise](https://github.com/Shreya-git-ai/Configwise): constraint-based configuration optimizer with What-If analysis
+- [ProfilePilot](https://github.com/Shreya-git-ai/ProfilePilot): FastAPI-based profile analysis platform
+- [CRUD-API](https://github.com/Shreya-git-ai/CRUD-API): FastAPI + SQLAlchemy + PostgreSQL REST API
+
+[Browse all repositories →](https://github.com/Shreya-git-ai?tab=repositories)
+
 # 📬 Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Shreya%20Chaturvedi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shreya-chaturvedi-64020a359)
