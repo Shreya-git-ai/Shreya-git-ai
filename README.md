@@ -121,21 +121,9 @@ Built for the PayPal AI hackathon as a team. My part: the assessment agent, a Fa
 
 # 💡 A Little More About Me
 
-```python
-class Shreya:
-
-    role = "CS (AI & ML) undergraduate"
-    college = "RNSIT, Bengaluru"
-
-    interests = [
-        "Backend development",
-        "Applied AI / RAG",
-        "Problem solving",
-        "Open source",
-    ]
-
-    looking_for = "SWE / AI-ML internships"
-```
+- 🎓 **Studying:** B.E. Computer Science (AI & ML), RNSIT Bengaluru
+- 🛠️ **Interests:** Backend development, applied AI / RAG, problem solving, open source
+- 🎯 **Looking for:** SWE / AI-ML internships
 
 ---
 
