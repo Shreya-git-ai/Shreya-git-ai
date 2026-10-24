@@ -56,7 +56,7 @@ A RAG-based study assistant for interview prep.
 **Python • ChromaDB • sentence-transformers • FastAPI • TypeScript**
 
 [View Repository](https://github.com/Shreya-git-ai/PrepMate)
-
+---
  🌾 KALPA ML · team project
 
  **Demand and feasibility models for a hyper-local business advisory platform.**
