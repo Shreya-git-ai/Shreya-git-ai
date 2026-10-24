@@ -57,12 +57,9 @@ A RAG-based study assistant for interview prep.
 
 [View Repository](https://github.com/Shreya-git-ai/PrepMate)
 
-<!-- Uncomment once Kalpa-ml is public AND its README explains your part. Edit to match what you built:
----
+ 🌾 KALPA ML · team project
 
-## 🌾 KALPA ML · team project
-
-### **Demand and feasibility models for a hyper-local business advisory platform.**
+ **Demand and feasibility models for a hyper-local business advisory platform.**
 
 ML layer built on Census, ASUSE and village-amenity data, evaluated with a geographic holdout (whole unseen districts) and a leakage audit instead of a random split.
 
