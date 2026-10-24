@@ -1,77 +1,152 @@
-<h1 align="center">Shreya Chaturvedi</h1>
-
 <p align="center">
-  CS (AI &amp; ML) undergraduate at RNSIT, Bengaluru<br>
-  Building Python backends and applied-AI projects, and sharpening DSA alongside them.
+  <img alt="Shreya Chaturvedi" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A5F,100:0F172A&height=220&section=header&text=Shreya%20Chaturvedi&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=CS%20%26%20AI%2FML%20Undergraduate&descAlignY=60&descSize=20" />
 </p>
 
 <p align="center">
-  <a href="#featured-projects">Projects</a> ·
-  <a href="#toolkit">Toolkit</a> ·
-  <a href="#problem-solving">Problem solving</a> ·
-  <a href="#connect">Connect</a>
+  <img alt="Python backends and applied AI" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=750&lines=Python+Backends+%26+Applied+AI;RAG+%C2%B7+Semantic+Search+%C2%B7+ML+Pipelines;Looking+for+SWE+%2F+AI-ML+internships" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/Shreya-git-ai"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Shreya--git--ai-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/shreya-chaturvedi-64020a359"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Shreya%20Chaturvedi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://leetcode.com/u/Shreya_Chaturvedi1803/"><img alt="LeetCode" src="https://img.shields.io/badge/LeetCode-Shreya__Chaturvedi1803-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
 </p>
 
 ---
 
-## About
+# 👋 Hey, I'm Shreya
 
-I'm a B.E. Computer Science (AI & ML) student at RNS Institute of Technology, Bengaluru, looking for software engineering and AI/ML internships.
-I enjoy projects where the interesting part is the pipeline: how data flows through a system, how results get scored, and how the system explains its output.
-Right now I'm building RAG-style backends in Python and working through DSA in C++.
+I'm a **Computer Science (AI & ML) undergraduate at RNSIT, Bengaluru**, looking for software engineering and AI/ML internships.
 
-## Featured projects
+I like projects where the interesting part is the pipeline: how data flows through a system, how results get scored, and how the system explains its output. Right now I'm building RAG-style backends in Python and working through DSA in C++.
 
-### [Recruiter Brain](https://github.com/Shreya-git-ai/Recruiter_Brain)
-Ranks candidates against a job description by meaning rather than keyword overlap, so keyword-stuffed profiles don't win by default.
+> **Python × Backend × Applied AI × DSA**
 
-- Pipeline: hard-requirement filters → profile-quality and honeypot heuristics → embedding similarity (`all-MiniLM-L6-v2`, cosine) → career-fit and hiring-signal scoring → a short written rationale per candidate
-- Design choice: candidate embeddings are precomputed once and cached, so ranking runs CPU-only with no API calls
-- Includes a Streamlit interface, a `tests/` folder, and a submission validator
-- **Stack:** Python, sentence-transformers, scikit-learn, pandas, Streamlit
+---
 
-🔗 [Live demo](https://recruiterbrain-u5hmq6tp5jnpafboh3ke5x.streamlit.app/)
+# ⚡ What I'm Building
 
-### [PrepMate](https://github.com/Shreya-git-ai/PrepMate) · in progress
-A RAG-based study assistant that turns PDFs into a searchable knowledge base for interview prep.
+## 🧠 Recruiter Brain
 
-- Working: PDF ingestion → page-level chunks → Sentence-Transformer embeddings → ChromaDB
-- Next: retrieval, LLM-grounded answers, topic classification and mastery tracking
-- **Stack:** Python, ChromaDB, sentence-transformers, FastAPI/Alembic scaffolding, TypeScript frontend
+### **Rank by meaning, not keywords.**
 
- [KALPA ML](https://github.com/Shreya-git-ai/Kalpa-ml) · team project
-ML layer for a hyper-local business advisory platform: a demand-prediction model and a feasibility classifier, built on Census, ASUSE and village-amenity data.
+Ranks candidates against a job description using semantic similarity, so keyword-stuffed profiles don't win by default.
 
-- Evaluated with a geographic holdout (whole unseen districts) and a leakage audit, not a random split
-- Honest finding: with leakage-prone features removed, the demand model has limited signal against a proxy target, and the README says so
-- **Stack:** Python, scikit-learn
+- 🔍 Hard-requirement filters before ranking
+- 🛡️ Profile-quality and honeypot heuristics
+- 📐 Embedding similarity (`all-MiniLM-L6-v2`, cosine)
+- 💬 A short written rationale for every ranked candidate
+- ⚙️ Embeddings precomputed once, so ranking runs CPU-only
+
+**Python • sentence-transformers • scikit-learn • pandas • Streamlit**
+
+[View Repository](https://github.com/Shreya-git-ai/Recruiter_Brain) · [Live Demo](https://recruiterbrain-u5hmq6tp5jnpafboh3ke5x.streamlit.app/)
+
+---
+
+## 📚 PrepMate · in progress
+
+### **Turn study material into a searchable knowledge base.**
+
+A RAG-based study assistant for interview prep.
+
+- ✅ Working: PDF ingestion → page-level chunks → embeddings → ChromaDB
+- 🔨 Next: retrieval, LLM-grounded answers, topic classification, mastery tracking
+
+**Python • ChromaDB • sentence-transformers • FastAPI • TypeScript**
+
+[View Repository](https://github.com/Shreya-git-ai/PrepMate)
+
+<!-- Uncomment once Kalpa-ml is public AND its README explains your part. Edit to match what you built:
+---
+
+## 🌾 KALPA ML · team project
+
+### **Demand and feasibility models for a hyper-local business advisory platform.**
+
+ML layer built on Census, ASUSE and village-amenity data, evaluated with a geographic holdout (whole unseen districts) and a leakage audit instead of a random split.
+
+**Python • scikit-learn**
+
+[View Repository](https://github.com/Shreya-git-ai/Kalpa-ml)
 -->
 
 <!-- Keep only if the TrustFlow repo is public and its README supports each line:
-### [TrustFlow](https://github.com/Shreya-git-ai/TrustFlow) · hackathon project
-Milestone-based payment platform built for the PayPal AI hackathon as a team. My part: the AI assessment agent, a FastAPI endpoint with idempotency handling and a pytest suite.
+---
+
+## 💸 TrustFlow · hackathon project
+
+### **Milestone-based payments with an AI assessment agent.**
+
+Built for the PayPal AI hackathon as a team. My part: the assessment agent, a FastAPI endpoint with idempotency handling, and its pytest suite.
+
+[View Repository](https://github.com/Shreya-git-ai/TrustFlow)
 -->
 
-## Toolkit
+---
 
-| | |
-|---|---|
-| **Languages** | Python (primary) · TypeScript (project frontends) |
-| **Backend & data** | FastAPI · SQLAlchemy · PostgreSQL · Alembic · Streamlit |
-| **AI / ML** | sentence-transformers · scikit-learn · pandas · ChromaDB (RAG) · LLM APIs |
-| **Tools** | Git · GitHub |
-| **Learning** | DSA and problem solving in C++ |
+# 🧠 Tech Stack
 
-## Problem solving
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![C++](https://img.shields.io/badge/C++-learning-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
-[LeetCode profile](https://leetcode.com/u/Shreya_Chaturvedi1803/)
+### Backend & Database
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
-## Currently
+### AI / ML
+![scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Sentence Transformers](https://img.shields.io/badge/Sentence--Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
-- Strengthening DSA and problem solving in C++
-- Taking PrepMate from ingestion to retrieval and mastery tracking
-- Preparing to contribute to open source, with GSoC in mind. Merged contributions will be listed here as they happen.
+### Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-## Connect
+---
 
-[GitHub](https://github.com/Shreya-git-ai) · [LinkedIn](https://www.linkedin.com/in/shreya-chaturvedi-64020a359)
+# 🌱 Currently
+
+```
+🔨 Building        → PrepMate (retrieval + mastery tracking)
+🧩 DSA             → Problem solving in C++
+🌐 Open Source     → Preparing to contribute, GSoC in mind
+🤖 AI              → RAG pipelines and explainable ranking
+```
+
+---
+
+# 💡 A Little More About Me
+
+```python
+class Shreya:
+
+    role = "CS (AI & ML) undergraduate"
+    college = "RNSIT, Bengaluru"
+
+    interests = [
+        "Backend development",
+        "Applied AI / RAG",
+        "Problem solving",
+        "Open source",
+    ]
+
+    looking_for = "SWE / AI-ML internships"
+```
+
+---
+
+# 📬 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shreya%20Chaturvedi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shreya-chaturvedi-64020a359)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Shreya_Chaturvedi1803/)
+
+<p align="center">
+  <img alt="" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A5F,100:0F172A&height=120&section=footer" />
+</p>
